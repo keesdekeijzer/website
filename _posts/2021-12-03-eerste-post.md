@@ -3,6 +3,7 @@ layout: post
 title: Eerste post
 date: 2021-12-03
 tags: eerste post
+description: de allereerste post
 ---
 # Eerste post
 
