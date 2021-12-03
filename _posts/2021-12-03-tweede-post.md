@@ -1,6 +1,7 @@
 ---
 titel: Tweede post
 tags: tweede post
+description: de tweede post
 ---
 # Dit is de tweede post
 
