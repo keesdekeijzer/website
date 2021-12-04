@@ -7,10 +7,9 @@ description: de code die nodig is voor copyright melding
 ---
 # Copyright code
 
-```
-<p>&copy; &lbrace;&lbrace; 'now' | date: '%Y' &rbrace;&rbrace;, &lbrace;&lbrace; site.author | link_to: '/' &rbrace;&rbrace;</p>
-<p>&lbrace;&lbrace; powered_by_link &rbrace;&rbrace;</p>
-```
+<p>
+&lt;p&gt;&copy; &lbrace;&lbrace; 'now' | date: '%Y' &rbrace;&rbrace;, &lbrace;&lbrace; site.author | link_to: '/' &rbrace;&rbrace;&lt;/p&gt;
+</p>
 
 <p>&copy; {{ 'now' | date: '%Y' }}, {{ site.author | link_to: '/' }}</p>
-<p>{{ powered_by_link }}</p>
+
