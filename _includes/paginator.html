@@ -5,7 +5,7 @@
         {% if paginator.previous_page %}
         <li class="pagination-previous"><a href="/{{ site.repo }}/{{ paginator.previous_page_path }}">Vorige</a></li>
         {% else %}
-        <li class="pagination-previous disabled">Previous</li>
+        <li class="pagination-previous disabled">Vorige</li>
         {% endif %}
 
         {% for counter in (1..paginator.total_pages) %}
@@ -32,7 +32,7 @@
         {% if paginator.next_page %}
         <li class="pagination-next"><a href="/{{ site.repo }}/{{ paginator.next_page_path }}">Volgende</a></li>
         {% else %}
-        <li class="pagination-next disabled">Next</li>
+        <li class="pagination-next disabled">Volgende</li>
         {% endif %}
         </ul>
     </nav>
