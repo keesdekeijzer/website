@@ -46,12 +46,15 @@
       </header>
       <section>
         
-      <h2>Posts with links</h2>  
-      {% for post in site.posts %}
-        <p>
+
+        
+      {% for post in paginator.posts %}
+         <p>
         <a href="{{- post.url | relative_url -}}">{{post.title}}</a>
         </p>
-      {% endfor %}
+      { % endfor %}
+
+{% include paginator.html %}
         
       {{ content }}
         
