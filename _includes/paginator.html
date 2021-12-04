@@ -3,7 +3,7 @@
     <nav aria-label="Pagination">
         <ul class="pagination text-center">
         {% if paginator.previous_page %}
-        <li class="pagination-previous"><a href="/website/{{ paginator.previous_page_path }}">Previous</a></li>
+        <li class="pagination-previous"><a href="/{{ site.repo }}/{{ paginator.previous_page_path }}">Previous</a></li>
         {% else %}
         <li class="pagination-previous disabled">Previous</li>
         {% endif %}
@@ -17,20 +17,20 @@
                 {% if counter == paginator.page %}
                 <li class="current">{{ counter }}</li>
                 {% else %}
-                <li><a href="/website/">{{ counter }}</a></li>
+                <li><a href="/{{ site.repo }}/">{{ counter }}</a></li>
                 {% endif %}
             {% else %}
                 {% if counter == paginator.page %}
                 <li class="current">{{ counter }}</li>
                 {% else %}
-                <li><a href="/website/posts/page{{ counter }}">{{ counter }}</a></li>
+                <li><a href="/{{ site.repo }}/posts/page{{ counter }}">{{ counter }}</a></li>
                 {% endif %}
             {% endif %}
 
         {% endfor %}
 
         {% if paginator.next_page %}
-        <li class="pagination-next"><a href="/website/{{ paginator.next_page_path }}">Next</a></li>
+        <li class="pagination-next"><a href="/{{ site.repo }}/{{ paginator.next_page_path }}">Next</a></li>
         {% else %}
         <li class="pagination-next disabled">Next</li>
         {% endif %}
