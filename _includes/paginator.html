@@ -3,7 +3,7 @@
     <nav aria-label="Pagination">
         <ul class="pagination text-center">
         {% if paginator.previous_page %}
-        <li class="pagination-previous"><a href="/{{ site.repo }}/{{ paginator.previous_page_path }}">Previous</a></li>
+        <li class="pagination-previous"><a href="/{{ site.repo }}/{{ paginator.previous_page_path }}">Vorige</a></li>
         {% else %}
         <li class="pagination-previous disabled">Previous</li>
         {% endif %}
@@ -30,7 +30,7 @@
         {% endfor %}
 
         {% if paginator.next_page %}
-        <li class="pagination-next"><a href="/{{ site.repo }}/{{ paginator.next_page_path }}">Next</a></li>
+        <li class="pagination-next"><a href="/{{ site.repo }}/{{ paginator.next_page_path }}">Volgende</a></li>
         {% else %}
         <li class="pagination-next disabled">Next</li>
         {% endif %}
