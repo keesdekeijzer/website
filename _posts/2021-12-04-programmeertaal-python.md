@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Een babbel over Python
-date: 2021-12-03
+date: 2021-12-04
 tags: eerste post
 description: De programmeertaal Python is populair
 ---
