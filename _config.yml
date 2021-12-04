@@ -6,3 +6,9 @@ google_analytics:
 theme: jekyll-theme-minimal
 author: Kees de Keijzer
 github_username: keesdekeijzer
+plugins:
+  # Other plugins go here
+ - jekyll-paginate
+
+paginate: 5
+paginate_path: "/posts/page:num/"
