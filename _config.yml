@@ -10,7 +10,7 @@ plugins:
   # Other plugins go here
  - jekyll-paginate
 
-paginate: 5
+paginate: 10
 paginate_path: "/posts/page:num/"
 repo: website
 rssfeed: feed.xml
