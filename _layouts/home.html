@@ -64,7 +64,7 @@
       </section>
       <footer>
         <p><a href="feed.xml">rss feed</a></p>
-        <p><a href="{{ "/" | absolute_url }}/{{- site.rssfeed -}}">rss atom feed</a></p>
+        <p><a href="{{ "/" | absolute_url }}{{- site.rssfeed -}}">rss atom feed</a></p>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
