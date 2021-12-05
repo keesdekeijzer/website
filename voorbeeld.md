@@ -20,7 +20,7 @@ alleen de kop
 ---
 layout: post
 title: Eerste post
-date: 2021-12-03
+date: 2021-12-05T00:00:00+00:00
 tags: eerste post
 description: de allereerste post
 ---
