@@ -6,7 +6,7 @@ layout: null
 <link href="{{- site.url -}}{{- site.baseurl -}}/feed.xml" rel="self" type="apllication/atom+xml"/>
 <link href="{{- site.url -}}{{- site.baseurl -}}" rel="alternate" type="text/html"/>
 <updated>{{- site.time | date_to_xmlschema -}}</updated> 
-<id>{{- site.url -}}{{- site.baseurl -}}feed.xml</id>
+<id>{{- site.url -}}{{- site.baseurl -}}/feed.xml</id>
 <title>{{site.title}} feed</title>
 <subtitle>{{- site.description | strip_html | lstrip | rstrip -}}</subtitle>
 <author>                   
@@ -20,7 +20,7 @@ layout: null
     <entry>                    
         <title>{{- post.title -}}</title>
         <id>{{- site.url -}}{{- site.baseurl -}}{{- post.url -}}</id>
-        <link>{{- site.url -}}{{- site.baseurl -}}{{- post.url -}}></link>
+        <link>{{- site.url -}}{{- site.baseurl -}}{{- post.url -}}</link>
         <updated>{{- post.date | date_to_xmlschema -}}</updated> 
     <summary>                  
         {{- post.excerpt | strip_html | lstrip | rstrip -}}
