@@ -18,13 +18,12 @@ layout: null
 </author>                  
 {%- for post in site.posts limit: 20 -%}
     <entry>                    
-    <title>{{- post.title -}}</title>
-    <id>{{- site.url -}}{{- site.baseurl -}}{{- post.url -}}</id>
-    <link>{{- site.url -}}{{- site.baseurl -}}{{- post.url -}}/>
-    <updated>{{- post.date | date_to_xmlschema -}}</updated> 
+        <title>{{- post.title -}}</title>
+        <id>{{- site.url -}}{{- site.baseurl -}}{{- post.url -}}</id>
+        <link>{{- site.url -}}{{- site.baseurl -}}{{- post.url -}}></link>
+        <updated>{{- post.date | date_to_xmlschema -}}</updated> 
     <summary>                  
-    {{- post.excerpt | strip_html | lstrip | rstrip -}}
-    {{- post.excerpt | strip_html | lstrip | rstrip -}}
+        {{- post.excerpt | strip_html | lstrip | rstrip -}}
     </summary>
     </entry>
 {%- endfor -%}
