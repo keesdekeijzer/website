@@ -4,29 +4,30 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 <link href="{{- site.url -}}{{- site.baseurl -}}/feed.xml" rel="self" type="apllication/atom+xml"/>
-<link href="{{- site.url -}}{{- site.baseurl -}}/" rel="alternate" type="text/html"?>
+<link href="{{- site.url -}}{{- site.baseurl -}}" rel="alternate" type="text/html"?>
 <updated>{{- site.time | date_to_xmlschema -}}</updated> 
 <id>{{- site.url -}}{{- site.baseurl -}}feed.xml</id>
 <title>{{site.title}} feed</title>
 <subtitle>{{- site.description | strip_html | lstrip | rstrip -}}</subtitle>
 <author>                   
-<name>{%- if site.author -%}
-{{- site.author -}}        
-{%- else -%}               
-{{- site.title -}}         
-{%- endif -%}</name>       
+    <name>{%- if site.author -%}
+    {{- site.author -}}        
+    {%- else -%}               
+    {{- site.title -}}         
+    {%- endif -%}</name>       
 </author>                  
 {%- for post in site.posts limit: 20 -%}
-<entry>                    
-
-<id>{{- site.url -}}{{- site.baseurl -}}</id>
-<link{{- site.url -}}{{- site.baseurl -}}/>
-<updated>{{- post.date | date_to_xmlschema -}}</updated> 
-<summary>                  
-{%- post.excerpt | strip_html | lstrip | rstrip -%}
-{{- post.excerpt | strip_html | lstrip | rstrip -}}
+{%- if post category=="Business" -%}
+    <entry>                    
+    <title>{{- post.title -}}</title>
+    <id>{{- site.url -}}{{- site.baseurl -}}{{- post.url -}}</id>
+    <link{{- site.url -}}{{- site.baseurl -}}{{- post.url -}}/>
+    <updated>{{- post.date | date_to_xmlschema -}}</updated> 
+    <summary>                  
+    {{- post.excerpt | strip_html | lstrip | rstrip -}}
+    {{- post.excerpt | strip_html | lstrip | rstrip -}}
+    </summary>
+    </entry>
 {%- endif -%}
-</summary>
-</entry>
 {%- endfor -%}
 </feed>
