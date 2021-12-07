@@ -1,6 +1,6 @@
 title: Website
 logo: /assets/img/logo.png
-description: Sjabloon voor een website met GitHub Pages.
+description: Sjabloon voor een website met GitHub Pages, thema gebaseerd op Minimal, uitgebreid met tags, paginering en RSS feed.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
