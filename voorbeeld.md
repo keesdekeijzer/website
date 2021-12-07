@@ -4,7 +4,7 @@ title: Voorbeeld
 description: voorbeelden van bestanden
 ---
 # Voorbeeld van tag bestand
-compleet voorbeeld
+Compleet voorbeeld, er hoeft verder niets in het bestand te staan
 
 ```
 ---
@@ -14,7 +14,7 @@ tag: eerste
 ---
 ```
 # voorbeeld van post
-alleen de kop
+Dit is alleen de kop, pas ook de datum/tijd aan
 
 ```
 ---
