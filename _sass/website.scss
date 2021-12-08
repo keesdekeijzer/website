@@ -42,7 +42,6 @@ a {
 
 a:hover, a:focus {
   color:#00aaff;
-  # font-weight: bold;
 }
 
 a small {
@@ -324,6 +323,6 @@ display: inline;
 
 a[href^="http://"]:after, 
 a[href^="https://"]:after {
-  content: url(assets/img/externe-link16.png);
+  content: url(../assets/img/externe-link16.png);
   margin: 0 0 0 5px;
 }
