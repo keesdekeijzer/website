@@ -321,3 +321,9 @@ display: inline;
 .feed-icon {
   display: inline-block;
 }
+
+a[href^="http://"]:after, 
+a[href^="https://"]:after {
+  content: url(assets/img/externe-link16.png);
+  margin: 0 0 0 5px;
+}
