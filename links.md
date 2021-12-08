@@ -1,11 +1,10 @@
 ---
 layout: default
-externe-link: <img src="assets/img/externe-link.png" width=16 height=16 alt="externe link"/>
+externe-link: "<img src='assets/img/externe-link.png' width=16 height=16 alt='externe link'/>"
 ---
 # Links
 
-[Duck Duck Go](https://duckduckgo.com){{ externe-link }}
-
+- [Duck Duck Go](https://duckduckgo.com){{ externe-link }}
 Zoekmachine
 
 [Google](https://google.com){{ externe-link }}
