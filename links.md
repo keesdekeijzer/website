@@ -1,14 +1,13 @@
 ---
 layout: default
-externe-link: "![](assets/img/externe-link16.png)"
 ---
 # Links
 
-- [Duck Duck Go](https://duckduckgo.com){{ externe-link }}
+- [Duck Duck Go](https://duckduckgo.com)
   - Zoekmachine
 
-- [Google](https://google.com){{ externe-link }}
+- [Google](https://google.com)
   - Zoekmachine
 
-- [Vim gebruiken om tekstbestanden te bewerken](https://www.web2.nl/index.php?p=linux&a=vim_gebruiken_om_tekstbestanden_te_bewerken){{ externe-link }}
-  - Vim!
+- [Vim gebruiken om tekstbestanden te bewerken](https://www.web2.nl/index.php?p=linux&a=vim_gebruiken_om_tekstbestanden_te_bewerken)
+  - Vim is een teksteditor
