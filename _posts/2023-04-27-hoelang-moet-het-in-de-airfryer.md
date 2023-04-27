@@ -2,7 +2,7 @@
 layout: post
 title: Hoe lang moet het in de Airfryer?
 date: 2023-04-27T00:00:10+00:00
-tags: post
+tags: airfryer eten
 description: Airfryer
 ---
 # Airfryer tijden
