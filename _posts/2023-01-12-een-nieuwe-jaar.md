@@ -7,4 +7,4 @@ description: 2023
 ---
 # Een nieuw jaar
 
-Er is een nieuw jaar.
+Er is een nieuw jaar. Het heet 2023.
